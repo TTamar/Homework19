@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-holder {
+  padding: 10px;
+  font-size: 20px;
+  color: green;
+  text-transform: uppercase;
+}
+#get-registration {
+  padding: 10px;
+  font-size: 20px;
+  color: beige;
+  text-transform: uppercase;
+  background-color: palevioletred;
+  border: 2px dotted purple;
+  border-radius: 8px;
+}
+#get-registration:hover{
+    background-color: rgb(124, 124, 215);
+}
+#user-login-form {
+  padding: 30px;
+}
+.form-field {
+  margin-bottom: 15px;
+}
+.form-field input {
+  height: 48px;
+  width: 500px;
+  outline: none;
+  border: 1px solid #e3e3e3;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+#user-position {
+  color: #636363;
+  outline: none;
+  border: 1px solid #e3e3e3;
+  padding: 5px 0;
+  width: 500px;
+  border-radius: 12px;
+}
+.submitbtn {
+  padding: 6px 20px;
+  height: 48px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.form-field .has-error,
+.form-field .has-error:focus {
+  border: 1px solid red;
+}
+textarea {
+  font-size: 20px;
+}
+.submitbtn:hover {
+  background-color: aqua;
+}
+.modal {
+    display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #909090;
+  opacity: 0.9;
+  z-index: 5;
+}
+.modal-content {
+  max-width: 600px;
+  background-color: #fff;
+  z-index: 30;
+  margin: 0 auto;
+  background-color: rgb(203, 247, 232);
+  border-radius: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visible {
+    display: block;
+}
